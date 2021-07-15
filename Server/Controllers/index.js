@@ -5,6 +5,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.DisplayViewTourneyPage = exports.DisplayNewTourneyPage = exports.DisplayServicesPage = exports.DisplayActiveTourneyPage = exports.DisplayAboutPage = exports.DisplayHomePage = void 0;
 const competitor_1 = __importDefault(require("../Models/competitor"));
+const tournament_1 = __importDefault(require("../Models/tournament"));
 function DisplayHomePage(req, res, next) {
     res.render('index', { title: 'Home', page: 'home' });
 }
@@ -31,6 +32,12 @@ function DisplayViewTourneyPage(req, res, next) {
             return console.error(err);
         }
         res.render('index', { title: 'Tournament Tree', page: 'viewtourney', competitor: competitorCollection });
+    });
+    tournament_1.default.find(function (err, tournamentCollection) {
+        if (err) {
+            return console.error(err);
+        }
+        res.render('index', { title: 'Tournament Tree', page: 'viewtourney', tournament: tournamentCollection });
     });
 }
 exports.DisplayViewTourneyPage = DisplayViewTourneyPage;
