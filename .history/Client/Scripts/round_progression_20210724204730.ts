@@ -261,9 +261,9 @@ function nextRoundW()
 
 function nextRoundY()
 {
-    let winner = document.getElementById('newPart10')
+    let winner = document.getElementById('newPart7')
 
-    let newParticipant = document.getElementById('newPart14')
+    let newParticipant = document.getElementById('newPart8')
 
     let clone = winner.cloneNode(true)
 
@@ -272,9 +272,9 @@ function nextRoundY()
 
 function nextRoundZ()
 {
-    let winner = document.getElementById('newPart11')
+    let winner = document.getElementById('newPart7')
 
-    let newParticipant = document.getElementById('newPart14')
+    let newParticipant = document.getElementById('newPart8')
 
     let clone = winner.cloneNode(true)
 
@@ -283,9 +283,9 @@ function nextRoundZ()
 
 function nextRoundAA()
 {
-    let winner = document.getElementById('newPart12')
+    let winner = document.getElementById('newPart7')
 
-    let newParticipant = document.getElementById('newPart15')
+    let newParticipant = document.getElementById('newPart8')
 
     let clone = winner.cloneNode(true)
 
@@ -294,40 +294,7 @@ function nextRoundAA()
 
 function nextRoundBB()
 {
-    let winner = document.getElementById('newPart13')
-
-    let newParticipant = document.getElementById('newPart15')
-
-    let clone = winner.cloneNode(true)
-
-    newParticipant.prepend(clone)
-}
-
-function nextRoundCC()
-{
-    let winner = document.getElementById('newPart14')
-
-    let newParticipant = document.getElementById('newPart16')
-
-    let clone = winner.cloneNode(true)
-
-    newParticipant.prepend(clone)
-}
-
-function nextRoundDD()
-{
-    let winner = document.getElementById('newPart15')
-
-    let newParticipant = document.getElementById('newPart16')
-
-    let clone = winner.cloneNode(true)
-
-    newParticipant.prepend(clone)
-}
-
-function nextRoundEE()
-{
-    let winner = document.getElementById('newPart16')
+    let winner = document.getElementById('newPart7')
 
     let newParticipant = document.getElementById('newPart8')
 

@@ -305,9 +305,9 @@ function nextRoundBB()
 
 function nextRoundCC()
 {
-    let winner = document.getElementById('newPart14')
+    let winner = document.getElementById('newPart13')
 
-    let newParticipant = document.getElementById('newPart16')
+    let newParticipant = document.getElementById('newPart15')
 
     let clone = winner.cloneNode(true)
 
@@ -316,20 +316,9 @@ function nextRoundCC()
 
 function nextRoundDD()
 {
-    let winner = document.getElementById('newPart15')
+    let winner = document.getElementById('newPart13')
 
-    let newParticipant = document.getElementById('newPart16')
-
-    let clone = winner.cloneNode(true)
-
-    newParticipant.prepend(clone)
-}
-
-function nextRoundEE()
-{
-    let winner = document.getElementById('newPart16')
-
-    let newParticipant = document.getElementById('newPart8')
+    let newParticipant = document.getElementById('newPart15')
 
     let clone = winner.cloneNode(true)
 

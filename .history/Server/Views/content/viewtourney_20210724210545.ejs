@@ -260,7 +260,6 @@ function toggleTable() {
             <table class="table table-striped">
                 <thead class="table-dark">
                     <tr>
-                        <th scope="col">Team #</th>
                         <th scope="col">Team Name</th>
                         <th scope="col"></th>
                       
@@ -270,9 +269,6 @@ function toggleTable() {
                 <tbody>
                     <% for(let count=0; count < 1; count++) { %>
                         <tr>
-                            <th scope="row">
-                                <%= count + 1 %>
-                            </th>
                             <td id="winner1">
                                 <%= competitor[count].fullname %>
                             </td>
@@ -285,9 +281,6 @@ function toggleTable() {
 
                         <% for(let count=1; count < 2; count++) { %>
                         <tr>
-                            <th scope="row">
-                                <%= count + 1 %>
-                            </th>
                             <td id="winner2">
                                 <%= competitor[count].fullname %>
                             </td>

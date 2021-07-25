@@ -324,14 +324,3 @@ function nextRoundDD()
 
     newParticipant.prepend(clone)
 }
-
-function nextRoundEE()
-{
-    let winner = document.getElementById('newPart16')
-
-    let newParticipant = document.getElementById('newPart8')
-
-    let clone = winner.cloneNode(true)
-
-    newParticipant.prepend(clone)
-}

@@ -302,36 +302,3 @@ function nextRoundBB()
 
     newParticipant.prepend(clone)
 }
-
-function nextRoundCC()
-{
-    let winner = document.getElementById('newPart14')
-
-    let newParticipant = document.getElementById('newPart16')
-
-    let clone = winner.cloneNode(true)
-
-    newParticipant.prepend(clone)
-}
-
-function nextRoundDD()
-{
-    let winner = document.getElementById('newPart15')
-
-    let newParticipant = document.getElementById('newPart16')
-
-    let clone = winner.cloneNode(true)
-
-    newParticipant.prepend(clone)
-}
-
-function nextRoundEE()
-{
-    let winner = document.getElementById('newPart16')
-
-    let newParticipant = document.getElementById('newPart8')
-
-    let clone = winner.cloneNode(true)
-
-    newParticipant.prepend(clone)
-}
