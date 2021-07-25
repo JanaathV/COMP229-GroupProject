@@ -197,10 +197,8 @@ function nextRoundM()
     let clone = winner.cloneNode(true)
 
     newParticipant.prepend(clone)
-    if(document.getElementById("myButton13").disabled = true)
-    {
-        document.getElementById("myButton14").disabled = true
-    }
+    document.getElementById("myButton13").disabled = true
+
 }
 
 function nextRoundN()
@@ -212,10 +210,8 @@ function nextRoundN()
     let clone = winner.cloneNode(true)
 
     newParticipant.prepend(clone)
-    if(document.getElementById("myButton14").disabled = true)
-    {
-        document.getElementById("myButton13").disabled = true
-    }
+    document.getElementById("myButton14").disabled = true
+
 }
 
 function nextRoundO()
@@ -227,10 +223,8 @@ function nextRoundO()
     let clone = winner.cloneNode(true)
 
     newParticipant.prepend(clone)
-    if(document.getElementById("myButton15").disabled = true)
-    {
-        document.getElementById("myButton16").disabled = true
-    }
+    document.getElementById("myButton15").disabled = true
+
 }
 
 function nextRoundP()
@@ -242,10 +236,8 @@ function nextRoundP()
     let clone = winner.cloneNode(true)
 
     newParticipant.prepend(clone)
-    if(document.getElementById("myButton23").disabled = true)
-    {
-        document.getElementById("myButton24").disabled = true
-    }
+    document.getElementById("myButton23").disabled = true
+
 }
 
 function nextRoundQ()
@@ -257,10 +249,8 @@ function nextRoundQ()
     let clone = winner.cloneNode(true)
 
     newParticipant.prepend(clone)
-    if(document.getElementById("myButton24").disabled = true)
-    {
-        document.getElementById("myButton23").disabled = true
-    }
+    document.getElementById("myButton24").disabled = true
+
 }
 
 function nextRoundR()
@@ -272,10 +262,8 @@ function nextRoundR()
     let clone = winner.cloneNode(true)
 
     newParticipant.prepend(clone)
-    if(document.getElementById("myButton25").disabled = true)
-    {
-        document.getElementById("myButton26").disabled = true
-    }
+    document.getElementById("myButton25").disabled = true
+
 }
 
 function nextRoundS()
@@ -287,10 +275,8 @@ function nextRoundS()
     let clone = winner.cloneNode(true)
 
     newParticipant.prepend(clone)
-    if(document.getElementById("myButton26").disabled = true)
-    {
-        document.getElementById("myButton25").disabled = true
-    }
+    document.getElementById("myButton26").disabled = true
+
 }
 
 function nextRoundT()
@@ -302,10 +288,8 @@ function nextRoundT()
     let clone = winner.cloneNode(true)
 
     newParticipant.prepend(clone)
-    if(document.getElementById("myButton27").disabled = true)
-    {
-        document.getElementById("myButton28").disabled = true
-    }
+    document.getElementById("myButton27").disabled = true
+
 }
 
 function nextRoundU()
@@ -317,10 +301,8 @@ function nextRoundU()
     let clone = winner.cloneNode(true)
 
     newParticipant.prepend(clone)
-    if(document.getElementById("myButton28").disabled = true)
-    {
-        document.getElementById("myButton27").disabled = true
-    }
+    document.getElementById("myButton28").disabled = true
+
 }
 
 function nextRoundV()
@@ -332,10 +314,8 @@ function nextRoundV()
     let clone = winner.cloneNode(true)
 
     newParticipant.prepend(clone)
-    if(document.getElementById("myButton29").disabled = true)
-    {
-        document.getElementById("myButton30").disabled = true
-    }
+    document.getElementById("myButton29").disabled = true
+
 }
 
 function nextRoundW()
@@ -347,10 +327,8 @@ function nextRoundW()
     let clone = winner.cloneNode(true)
 
     newParticipant.prepend(clone)
-    if(document.getElementById("myButton30").disabled = true)
-    {
-        document.getElementById("myButton29").disabled = true
-    }
+    document.getElementById("myButton30").disabled = true
+
 }
 
 function nextRoundY()
@@ -362,10 +340,8 @@ function nextRoundY()
     let clone = winner.cloneNode(true)
 
     newParticipant.prepend(clone)
-    if(document.getElementById("myButton19").disabled = true)
-    {
-        document.getElementById("myButton20").disabled = true
-    }
+    document.getElementById("myButton19").disabled = true
+
 }
 
 function nextRoundZ()
@@ -377,10 +353,8 @@ function nextRoundZ()
     let clone = winner.cloneNode(true)
 
     newParticipant.prepend(clone)
-    if(document.getElementById("myButton20").disabled = true)
-    {
-        document.getElementById("myButton19").disabled = true
-    }
+    document.getElementById("myButton20").disabled = true
+
 }
 
 function nextRoundAA()
@@ -392,10 +366,8 @@ function nextRoundAA()
     let clone = winner.cloneNode(true)
 
     newParticipant.prepend(clone)
-    if(document.getElementById("myButton21").disabled = true)
-    {
-        document.getElementById("myButton22").disabled = true
-    }
+    document.getElementById("myButton21").disabled = true
+
 }
 
 function nextRoundBB()
@@ -407,10 +379,8 @@ function nextRoundBB()
     let clone = winner.cloneNode(true)
 
     newParticipant.prepend(clone)
-    if(document.getElementById("myButton22").disabled = true)
-    {
-        document.getElementById("myButton21").disabled = true
-    }
+    document.getElementById("myButton22").disabled = true
+
 }
 
 function nextRoundCC()
@@ -422,10 +392,8 @@ function nextRoundCC()
     let clone = winner.cloneNode(true)
 
     newParticipant.prepend(clone)
-    if(document.getElementById("myButton17").disabled = true)
-    {
-        document.getElementById("myButton18").disabled = true
-    }
+    document.getElementById("myButton17").disabled = true
+
 }
 
 function nextRoundDD()
@@ -437,10 +405,8 @@ function nextRoundDD()
     let clone = winner.cloneNode(true)
 
     newParticipant.prepend(clone)
-    if(document.getElementById("myButton18").disabled = true)
-    {
-        document.getElementById("myButton17").disabled = true
-    }
+    document.getElementById("myButton18").disabled = true
+
 }
 
 function nextRoundEE()
@@ -452,8 +418,6 @@ function nextRoundEE()
     let clone = winner.cloneNode(true)
 
     newParticipant.prepend(clone)
-    if(document.getElementById("myButton16").disabled = true)
-    {
-        document.getElementById("myButton15").disabled = true
-    }
+    document.getElementById("myButton16").disabled = true
+
 }

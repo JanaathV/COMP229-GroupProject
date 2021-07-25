@@ -437,10 +437,8 @@ function nextRoundDD()
     let clone = winner.cloneNode(true)
 
     newParticipant.prepend(clone)
-    if(document.getElementById("myButton18").disabled = true)
-    {
-        document.getElementById("myButton17").disabled = true
-    }
+    document.getElementById("myButton18").disabled = true
+
 }
 
 function nextRoundEE()

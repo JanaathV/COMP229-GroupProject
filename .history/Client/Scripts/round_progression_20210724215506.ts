@@ -14,11 +14,7 @@ function nextRound()
     let clone = winner.cloneNode(true)
 
     newParticipant.appendChild(clone)
-
-    if(document.getElementById("myButton").disabled = true)
-    {
-        document.getElementById("myButton2").disabled = true
-    }
+    document.getElementById("myButton").disabled = true;
 }
 
 function nextRoundB()
@@ -30,11 +26,6 @@ function nextRoundB()
     let clone = winner.cloneNode(true)
 
     newParticipant.prepend(clone)
-    if(document.getElementById("myButton2").disabled = true)
-    {
-        document.getElementById("myButton").disabled = true
-    }
-
 }
 
 function nextRoundC()
@@ -46,11 +37,6 @@ function nextRoundC()
     let clone = winner.cloneNode(true)
 
     newParticipant.prepend(clone)
-    dif(document.getElementById("myButton3").disabled = true)
-    {
-        document.getElementById("myButton4").disabled = true
-    }
-
 }
 
 function nextRoundD()
@@ -62,10 +48,6 @@ function nextRoundD()
     let clone = winner.cloneNode(true)
 
     newParticipant.prepend(clone)
-    if(document.getElementById("myButton4").disabled = true)
-    {
-        document.getElementById("myButton3").disabled = true
-    }
 }
 
 function nextRoundE()
@@ -77,10 +59,6 @@ function nextRoundE()
     let clone = winner.cloneNode(true)
 
     newParticipant.prepend(clone)
-    if(document.getElementById("myButton5").disabled = true)
-    {
-        document.getElementById("myButton6").disabled = true
-    }
 }
 
 function nextRoundF()
@@ -92,10 +70,6 @@ function nextRoundF()
     let clone = winner.cloneNode(true)
 
     newParticipant.prepend(clone)
-    if(document.getElementById("myButton6").disabled = true)
-    {
-        document.getElementById("myButton5").disabled = true
-    }
 }
 
 function nextRoundG()
@@ -107,10 +81,6 @@ function nextRoundG()
     let clone = winner.cloneNode(true)
 
     newParticipant.prepend(clone)
-    if(document.getElementById("myButton7").disabled = true)
-    {
-        document.getElementById("myButton8").disabled = true
-    }
 }
 
 function nextRoundH()
@@ -122,10 +92,6 @@ function nextRoundH()
     let clone = winner.cloneNode(true)
 
     newParticipant.prepend(clone)
-    if(document.getElementById("myButton8").disabled = true)
-    {
-        document.getElementById("myButton7").disabled = true
-    }
 }
 
 function nextRoundI()
@@ -137,10 +103,6 @@ function nextRoundI()
     let clone = winner.cloneNode(true)
 
     newParticipant.prepend(clone)
-    if(document.getElementById("myButton9").disabled = true)
-    {
-        document.getElementById("myButton10").disabled = true
-    }
 }
 
 function nextRoundJ()
@@ -152,10 +114,6 @@ function nextRoundJ()
     let clone = winner.cloneNode(true)
 
     newParticipant.prepend(clone)
-    if(document.getElementById("myButton10").disabled = true)
-    {
-        document.getElementById("myButton9").disabled = true
-    }
 }
 
 function nextRoundK()
@@ -167,10 +125,6 @@ function nextRoundK()
     let clone = winner.cloneNode(true)
 
     newParticipant.prepend(clone)
-    if(document.getElementById("myButton11").disabled = true)
-    {
-        document.getElementById("myButton12").disabled = true
-    }
 }
 
 function nextRoundL()
@@ -182,10 +136,6 @@ function nextRoundL()
     let clone = winner.cloneNode(true)
 
     newParticipant.prepend(clone)
-    if(document.getElementById("myButton12").disabled = true)
-    {
-        document.getElementById("myButton11").disabled = true
-    }
 }
 
 function nextRoundM()
@@ -197,10 +147,6 @@ function nextRoundM()
     let clone = winner.cloneNode(true)
 
     newParticipant.prepend(clone)
-    if(document.getElementById("myButton13").disabled = true)
-    {
-        document.getElementById("myButton14").disabled = true
-    }
 }
 
 function nextRoundN()
@@ -212,10 +158,6 @@ function nextRoundN()
     let clone = winner.cloneNode(true)
 
     newParticipant.prepend(clone)
-    if(document.getElementById("myButton14").disabled = true)
-    {
-        document.getElementById("myButton13").disabled = true
-    }
 }
 
 function nextRoundO()
@@ -227,10 +169,6 @@ function nextRoundO()
     let clone = winner.cloneNode(true)
 
     newParticipant.prepend(clone)
-    if(document.getElementById("myButton15").disabled = true)
-    {
-        document.getElementById("myButton16").disabled = true
-    }
 }
 
 function nextRoundP()
@@ -242,10 +180,6 @@ function nextRoundP()
     let clone = winner.cloneNode(true)
 
     newParticipant.prepend(clone)
-    if(document.getElementById("myButton23").disabled = true)
-    {
-        document.getElementById("myButton24").disabled = true
-    }
 }
 
 function nextRoundQ()
@@ -257,10 +191,6 @@ function nextRoundQ()
     let clone = winner.cloneNode(true)
 
     newParticipant.prepend(clone)
-    if(document.getElementById("myButton24").disabled = true)
-    {
-        document.getElementById("myButton23").disabled = true
-    }
 }
 
 function nextRoundR()
@@ -272,10 +202,6 @@ function nextRoundR()
     let clone = winner.cloneNode(true)
 
     newParticipant.prepend(clone)
-    if(document.getElementById("myButton25").disabled = true)
-    {
-        document.getElementById("myButton26").disabled = true
-    }
 }
 
 function nextRoundS()
@@ -287,10 +213,6 @@ function nextRoundS()
     let clone = winner.cloneNode(true)
 
     newParticipant.prepend(clone)
-    if(document.getElementById("myButton26").disabled = true)
-    {
-        document.getElementById("myButton25").disabled = true
-    }
 }
 
 function nextRoundT()
@@ -302,10 +224,6 @@ function nextRoundT()
     let clone = winner.cloneNode(true)
 
     newParticipant.prepend(clone)
-    if(document.getElementById("myButton27").disabled = true)
-    {
-        document.getElementById("myButton28").disabled = true
-    }
 }
 
 function nextRoundU()
@@ -317,10 +235,6 @@ function nextRoundU()
     let clone = winner.cloneNode(true)
 
     newParticipant.prepend(clone)
-    if(document.getElementById("myButton28").disabled = true)
-    {
-        document.getElementById("myButton27").disabled = true
-    }
 }
 
 function nextRoundV()
@@ -332,10 +246,6 @@ function nextRoundV()
     let clone = winner.cloneNode(true)
 
     newParticipant.prepend(clone)
-    if(document.getElementById("myButton29").disabled = true)
-    {
-        document.getElementById("myButton30").disabled = true
-    }
 }
 
 function nextRoundW()
@@ -347,10 +257,6 @@ function nextRoundW()
     let clone = winner.cloneNode(true)
 
     newParticipant.prepend(clone)
-    if(document.getElementById("myButton30").disabled = true)
-    {
-        document.getElementById("myButton29").disabled = true
-    }
 }
 
 function nextRoundY()
@@ -362,10 +268,6 @@ function nextRoundY()
     let clone = winner.cloneNode(true)
 
     newParticipant.prepend(clone)
-    if(document.getElementById("myButton19").disabled = true)
-    {
-        document.getElementById("myButton20").disabled = true
-    }
 }
 
 function nextRoundZ()
@@ -377,10 +279,6 @@ function nextRoundZ()
     let clone = winner.cloneNode(true)
 
     newParticipant.prepend(clone)
-    if(document.getElementById("myButton20").disabled = true)
-    {
-        document.getElementById("myButton19").disabled = true
-    }
 }
 
 function nextRoundAA()
@@ -392,10 +290,6 @@ function nextRoundAA()
     let clone = winner.cloneNode(true)
 
     newParticipant.prepend(clone)
-    if(document.getElementById("myButton21").disabled = true)
-    {
-        document.getElementById("myButton22").disabled = true
-    }
 }
 
 function nextRoundBB()
@@ -407,10 +301,6 @@ function nextRoundBB()
     let clone = winner.cloneNode(true)
 
     newParticipant.prepend(clone)
-    if(document.getElementById("myButton22").disabled = true)
-    {
-        document.getElementById("myButton21").disabled = true
-    }
 }
 
 function nextRoundCC()
@@ -422,10 +312,6 @@ function nextRoundCC()
     let clone = winner.cloneNode(true)
 
     newParticipant.prepend(clone)
-    if(document.getElementById("myButton17").disabled = true)
-    {
-        document.getElementById("myButton18").disabled = true
-    }
 }
 
 function nextRoundDD()
@@ -437,10 +323,6 @@ function nextRoundDD()
     let clone = winner.cloneNode(true)
 
     newParticipant.prepend(clone)
-    if(document.getElementById("myButton18").disabled = true)
-    {
-        document.getElementById("myButton17").disabled = true
-    }
 }
 
 function nextRoundEE()
@@ -452,8 +334,4 @@ function nextRoundEE()
     let clone = winner.cloneNode(true)
 
     newParticipant.prepend(clone)
-    if(document.getElementById("myButton16").disabled = true)
-    {
-        document.getElementById("myButton15").disabled = true
-    }
 }
