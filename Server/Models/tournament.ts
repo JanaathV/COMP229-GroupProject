@@ -8,13 +8,14 @@ import mongoose from 'mongoose';
 const Schema = mongoose.Schema; // alias for the mongoose schema
 
 const TournamentItemSchema = new Schema
-({
-    tournamentName: String,
-    numberOfCompetitors: Number,
-    type: String,
-    description: String,
-    competitorList: String,
-    champion: String
+    ({
+        tournamentName: String,
+        tournament_Custom_Id: Number,
+        numberOfCompetitors: Number,
+        status: Boolean,
+        type: String,
+        description: String,
+        champion: String
 },
 {
     collection: "tournament"

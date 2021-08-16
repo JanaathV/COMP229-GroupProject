@@ -7,9 +7,11 @@ import mongoose from 'mongoose';
 const Schema = mongoose.Schema; // alias for the mongoose schema
 
 const CompetitorItemSchema = new Schema
-({
-    fullname: String,
-    description: String
+    ({
+        comp_Tournament_Id: String,
+        status: Boolean,
+        fullname: String,
+        description: String
 },
 {
     collection: "competitor"

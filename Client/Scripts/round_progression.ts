@@ -46,7 +46,7 @@ function nextRoundC()
     let clone = winner.cloneNode(true)
 
     newParticipant.prepend(clone)
-    dif(document.getElementById("myButton3").disabled = true)
+    if(document.getElementById("myButton3").disabled = true)
     {
         document.getElementById("myButton4").disabled = true
     }

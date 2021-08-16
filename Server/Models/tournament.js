@@ -7,10 +7,11 @@ const mongoose_1 = __importDefault(require("mongoose"));
 const Schema = mongoose_1.default.Schema;
 const TournamentItemSchema = new Schema({
     tournamentName: String,
+    tournament_Custom_Id: Number,
     numberOfCompetitors: Number,
+    status: Boolean,
     type: String,
     description: String,
-    competitorList: String,
     champion: String
 }, {
     collection: "tournament"
